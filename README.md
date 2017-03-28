@@ -17,4 +17,5 @@ ___TODO___: WireFrame to be added
 ## Site Map
 
 ___TODO___: Site Map to be added
+![sitemap](documentation/sitemap.png)
 
