@@ -19,3 +19,10 @@ ___TODO___: WireFrame to be added
 ___TODO___: Site Map to be added
 ![sitemap](documentation/sitemap.png)
 
+## User Stories
+
+- As a user, I can search for recipes
+- As a user, I can see what restaraunts are selling a certain dish in a specific area
+- As a beta user, I can get an email of pre-registered account information
+- As a registered user, I can 
+
