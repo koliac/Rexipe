@@ -8,7 +8,10 @@ This is a webisite for you to look up recipe, browse great food pictures or even
 
 ## Data Model
 
-Please click [here](db.js) to view the data model
+This is an example of how the data is stored
+![data model](documentation/data-model.png)
+
+Please click [here](db.js) to view the first draft of the data schema
 
 ___TODO___: Data Model to be added
 
