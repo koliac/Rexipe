@@ -22,7 +22,9 @@ ___TODO___: Site Map to be added
 ## User Stories
 
 - As a user, I can search for recipes
-- As a user, I can see what restaraunts are selling a certain dish in a specific area
-- As a beta user, I can get an email of pre-registered account information
-- As a registered user, I can 
+- As a user, I can see which restaraunts are selling a certain dish in a specific area
+- As a beta user, I can register an account
+- As a registered user, I can log in to user dashboard
+- As a registered user, I can bookmark recipes that I like
+- As a registered user, I can contribute my own recipes
 
