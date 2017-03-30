@@ -1,9 +1,9 @@
 This is a final project for 480: Applied Internet Technology by Longkun Yang
-# Recipe
+# Rexipe
 
 ## Overview
 
-This is a webisite for you to look up recipe, browse great food pictures or even find out which restaurant is selling the food you are craving for, with great ease.
+This is a website for you to look up recipes, browse great food pictures or even find out which restaurants is selling the food you are craving for, with great ease.
 
 
 ## Data Model
@@ -13,11 +13,7 @@ This is an example of how the data is stored
 
 Please click [here](db.js) to view the first draft of the data schema
 
-___TODO___: Data Model to be added
-
 ## Wireframe
-
-___TODO___: WireFrame to be added
 
 WHat you see when you enter the site
 ![home_page](documentation/mockup_export/Home-Page.png)
@@ -32,7 +28,6 @@ What you see when you click on any of the sub-tab under "Recipe"
 
 ## Site Map
 
-___TODO___: Site Map to be added
 ![sitemap](documentation/sitemap.png)
 
 ## User Stories
@@ -44,3 +39,15 @@ ___TODO___: Site Map to be added
 - As a registered user, I can bookmark recipes that I like
 - As a registered user, I can contribute my own recipes
 
+## Research Topic
+
+- ( points) User authentication using passport.js
+- ( points) Style the site using Boostrap CSS framework
+- ( points) APIs
+..* Food API by Spoonacular: allow me to pull thousands of recipes from all diffrent websites.
+..* Zomato API: allow me search restaurant based on a dish name
+
+
+## Initial Project File
+
+click [here](rexipe.js) to view the initial project File
