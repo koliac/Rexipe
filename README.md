@@ -13,11 +13,17 @@ ___TODO___: Data Model to be added
 ## Wireframe
 
 ___TODO___: WireFrame to be added
+
+WHat you see when you enter the site
 ![home_page](documentation/mockup_export/Home-Page.png)
+What you see after you click "About"
 ![About](documentation/mockup_export/About.png)
+How a recipe is displayed
 ![Recipe](documentation/mockup_export/Recipe.png)
+What you see when you log in
 ![User Dashboard](documentation/mockup_export/User-Dashboard.png)
-![recipe list](documentation/mockup_export/Recipe-list-page.png)
+What you see when you click on any of the sub-tab under "Recipe"
+![recipe list](documentation/mockup_export/recipe-list-page.png)
 
 ## Site Map
 
