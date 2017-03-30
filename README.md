@@ -13,7 +13,11 @@ ___TODO___: Data Model to be added
 ## Wireframe
 
 ___TODO___: WireFrame to be added
-![home_page](documentation/mockup_export/Recipe.png)
+![home_page](documentation/mockup_export/Home-Page.png)
+![About](documentation/mockup_export/About.png)
+![Recipe](documentation/mockup_export/Recipe.png)
+![User Dashboard](documentation/mockup_export/User-Dashboard.png)
+![recipe list](documentation/mockup_export/Recipe-list-page.png)
 
 ## Site Map
 
