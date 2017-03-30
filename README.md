@@ -44,8 +44,8 @@ What you see when you click on any of the sub-tab under "Recipe"
 - ( points) User authentication using passport.js
 - ( points) Style the site using Boostrap CSS framework
 - ( points) APIs
-..* Food API by Spoonacular: allow me to pull thousands of recipes from all diffrent websites.
-..* Zomato API: allow me search restaurant based on a dish name
+⋅⋅* Food API by Spoonacular: allow me to pull thousands of recipes from all diffrent websites.
+⋅⋅* Zomato API: allow me search restaurant based on a dish name
 
 
 ## Initial Project File
