@@ -9,7 +9,7 @@ This is a webisite for you to look up recipe, browse great food pictures or even
 ## Data Model
 
 This is an example of how the data is stored
-![data model](documentation/data-model.png)
+![data model](documentation/data_model.PNG)
 
 Please click [here](db.js) to view the first draft of the data schema
 
