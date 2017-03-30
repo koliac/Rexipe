@@ -39,7 +39,7 @@ ___TODO___: Site Map to be added
 
 - As a user, I can search for recipes
 - As a user, I can see which restaraunts are selling a certain dish in a specific area
-- As a beta user, I can register an account
+- As a user, I can register an account
 - As a registered user, I can log in to user dashboard
 - As a registered user, I can bookmark recipes that I like
 - As a registered user, I can contribute my own recipes
