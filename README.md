@@ -13,6 +13,7 @@ ___TODO___: Data Model to be added
 ## Wireframe
 
 ___TODO___: WireFrame to be added
+![home_page]("documentation/mockup_export/Home Page.png")
 
 ## Site Map
 
