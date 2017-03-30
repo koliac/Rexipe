@@ -8,6 +8,8 @@ This is a webisite for you to look up recipe, browse great food pictures or even
 
 ## Data Model
 
+Please click [here](db.js) to view the data model
+
 ___TODO___: Data Model to be added
 
 ## Wireframe
