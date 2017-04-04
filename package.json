@@ -17,10 +17,12 @@
   },
   "homepage": "https://github.com/nyu-csci-ua-0480-008-spring-2017/ly657-final-project#readme",
   "devDependencies": {
+    "body-parser": "^1.17.1",
     "express": "^4.15.2",
     "express-session": "^1.15.2",
     "hbs": "^4.0.1",
-    "mongoose": "^4.9.2"
+    "mongoose": "^4.9.2",
+    "passport": "^0.3.2"
   },
   "dependencies": {
     "eslint": "^3.18.0",

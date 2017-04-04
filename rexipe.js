@@ -1,4 +1,4 @@
-require('./db');
+//require('./db');
 
 const express = require('express');
 const path = require('path');
@@ -41,5 +41,10 @@ app.set('view engine', 'hbs');
 app.use(bodyParser.urlencoded({ extended: false }));
 
 app.use(express.static(path.join(__dirname, 'public')));
+
+app.get("/",(req,res)=>{
+  res.render("home");
+
+});
 
 app.listen(3000);

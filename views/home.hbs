@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Rexipe</title>
+  <!-- jquery-->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <!-- custom css-->
+  <link rel="stylesheet" href="/css/master.css">
+<!--side nav-->
+  <script src="/javascript/side-nav.js"></script>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">About</a>
+    <a href="#">Feeling Indecisive</a>
+    <a href="#">Recipes</a>
+
+  </div>
+<span class="nav-btn glyphicon glyphicon-menu-right" style="font-size:30px;cursor:pointer" onclick="openNav()"></span>
+
+
+
+<!-- header-->
+</head>
+<body>
+  <header id="home-header">
+    <div class="container-fluid">
+      <h1>Rexipe</h1>
+      <form class="search-bar" action="index.html" method="post">
+        <div class="input-group">
+          <input class="form-control" type="text" name="search-query" placeholder="search" >
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="button">Search</button>
+          </span>
+
+        </div>
+
+      </form>
+
+    </div>
+  </header>
+  <!-- dish of the day-->
+  <div class="container dish-of-the-day img-fluid">
+    <img src="http://placehold.it/800x500" alt="dish-of-the-day">
+
+
+  </div>
+  <footer class="footer home-footer">
+      <div class="container-fluid">
+        <p> &copy Longkun Yang</p>
+      </div>
+  </footer>
+
+
+
+
+
+</body>
+</html>
