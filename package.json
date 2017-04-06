@@ -4,7 +4,8 @@
   "description": "A web app for you to look for recipes",
   "main": "rexipe.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node rexipe.js"
   },
   "repository": {
     "type": "git",
