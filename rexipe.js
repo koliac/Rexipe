@@ -80,7 +80,7 @@ app.get("/about",(req,res)=>{
 });
 app.get("/meat-lover",(req,res)=>{
   unirest.get("https://spoonacular-recipe-food-nutrition-v1.p.mashape.com/recipes/findByIngredients?fillIngredients=false&ingredients=beef&limitLicense=true&number=12&ranking=1")
-.header("X-Mashape-Key", "BZRGUJ49fPmshPSgJI7hlqToE59Dp1LHZckjsnWmV83L25tYKs")
+.header("X-Mashape-Key", "T7ZElprTGBmshLuMe9PRtph4DSInp1iO5UMjsnylLl2NZaszrE")
 .header("Accept", "application/json")
 .end(function (result) {
   const list = [];
