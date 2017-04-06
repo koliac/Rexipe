@@ -20,9 +20,15 @@
   <script src="/javascript/side-nav.js"></script>
   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="#">About</a>
+    <a href="/about">About</a>
     <a href="#">Feeling Indecisive</a>
     <a href="#">Recipes</a>
+    <div class="sub-menu">
+      <a href="/meat-lover">Meat Lover</a>
+      <a href="#">Vegan</a>
+      <a href="#">Desert</a>
+      <a href="#">Cocktail</a>
+    </div>
 
   </div>
 <span class="nav-btn glyphicon glyphicon-menu-right" style="font-size:30px;cursor:pointer" onclick="openNav()"></span>
@@ -34,7 +40,39 @@
 <body>
   <header id="home-header">
     <div class="container-fluid">
-      <h1>Rexipe</h1>
+      <div >
+        <a id="brand" href="/"><h1 >Rexipe</h1></a>
+
+
+        <span class="log-in" data-toggle="modal" data-target=".login-modal">Log In&nbsp <span class="glyphicon glyphicon-log-in"></span></span>
+
+        <div class="modal fade login-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content login-form">
+              <h1 class="text-center">Log In</h1>
+              <form action="/login" method="post">
+                <div class="input-group">
+                  <span class="input-group-addon">Username:</span>
+                  <input class="form-control" type="text" name="username"/>
+              </div>
+  <br>
+    <div class="input-group">
+                  <span class="input-group-addon">Password:</span>
+                  <input class="form-control" type="password" name="password"/>
+                  </div>
+                  <br>
+                  <div class="text-center" >
+                    <button type="submit" class="btn">Log In</button>
+                      <a class="btn btn-primary" href="/admin">Test Log In</a>
+                  </div>
+
+
+
+              </form>
+            </div>
+          </div>
+      </div>
+      <div>
       <form class="search-bar" action="index.html" method="post">
         <div class="input-group">
           <input class="form-control" type="text" name="search-query" placeholder="search" >
@@ -45,6 +83,7 @@
         </div>
 
       </form>
+    </div>
 
     </div>
   </header>
@@ -54,6 +93,8 @@
 
 
   </div>
+    <a href="/admin"><h1>login as admin (for dev purpose)</h1></a>
+  <!-- footer -->
   <footer class="footer home-footer">
       <div class="container-fluid">
         <p> &copy Longkun Yang</p>

@@ -1,0 +1,33 @@
+<section class="recipes-sub-sites">
+  <div class="subsite-title">
+      <h1>Meat Lover</h1>
+
+  </div>
+
+  <div class="container">
+    {{#grouped_each 3 list}}
+        <div class="row">
+        {{#each this }}
+            <div class="col-md-4">
+                <div class="thumbnail text-center">
+
+                    <img src="{{image}}" alt="pic">
+
+
+
+                  <div class="caption">
+                    <h3 class="text-center">{{title}}</h3>
+
+                  </div>
+
+                </div>
+            </div>
+        {{/each}}
+        </div>
+    {{/grouped_each}}
+
+
+
+  </div>
+
+</section>

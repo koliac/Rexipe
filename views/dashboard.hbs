@@ -1,0 +1,64 @@
+<section id="user-recipes">
+  <div class="container myRecipes">
+    <div class="row">
+      <div class="col-md-3">
+        <h3 class="text-center">Recipes Liked</h3>
+        <div class="list-group text-center">
+          <a href="#" class="list-group-item">1</a>
+          <a href="#" class="list-group-item">2</a>
+          <a href="#" class="list-group-item">3</a>
+          <a href="#" class="list-group-item">4</a>
+          <a href="#" class="list-group-item">5</a>
+
+        </div>
+
+      </div>
+      <div class="col-md-3">
+        <h3 class="text-center">Recipes Contributed</h3>
+        <div class="list-group text-center">
+          <a href="#" class="list-group-item">1</a>
+          <a href="#" class="list-group-item">2</a>
+          <a href="#" class="list-group-item">3</a>
+          <a href="#" class="list-group-item">4</a>
+          <a href="#" class="list-group-item">5</a>
+        </div>
+
+      </div>
+      <div class="col-md-6 text-center">
+        <img class="img-fluid" src="http://placehold.it/500x400" alt="">
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+<section id="recipe-post">
+  <div class="container">
+  <form class="recipe-post-form" action="/post-recipe" method="post">
+  <div class="form-group">
+    <label for="dish-name" >Dish Name</label>
+    <input class="form-control" type="text" name="dish-name" placeholder="Magic Juice">
+
+  </div>
+  <div class="form-group">
+    <label for="ingedient" >Ingredients</label>
+    <textarea class="form-control" name="steps" rows="8"  placeholder="Please follow this pattern: item1:quantity1,item:quantity2"></textarea>
+  </div>
+  <div class="form-group">
+    <label for="steps">Instructions</label>
+    <textarea class="form-control" name="steps" rows="8" placeholder="1.Blende the ingredients together
+2.Add a pinch of salt"></textarea>
+  </div>
+
+
+<div class="form-group">
+<input class="btn btn-primary" type="submit" value="Post">
+
+</div>
+
+  </form>
+</div>
+
+</section>
