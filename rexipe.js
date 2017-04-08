@@ -100,6 +100,7 @@ app.post("/post-recipe",(req,res)=>{
   res.redirect("/admin");
 
 });
+//all information in this page ia pulled from the API 
 app.get("/meat-lover",(req,res)=>{
   unirest.get("https://spoonacular-recipe-food-nutrition-v1.p.mashape.com/recipes/findByIngredients?fillIngredients=false&ingredients=beef&limitLicense=true&number=12&ranking=1")
 .header("X-Mashape-Key", "T7ZElprTGBmshLuMe9PRtph4DSInp1iO5UMjsnylLl2NZaszrE")
