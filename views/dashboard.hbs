@@ -16,11 +16,10 @@
       <div class="col-md-3">
         <h3 class="text-center">Recipes Contributed</h3>
         <div class="list-group text-center">
-          <a href="#" class="list-group-item">1</a>
-          <a href="#" class="list-group-item">2</a>
-          <a href="#" class="list-group-item">3</a>
-          <a href="#" class="list-group-item">4</a>
-          <a href="#" class="list-group-item">5</a>
+          {{#each list}}
+            <a href="#" class="list-group-item">{{this.name}}</a>
+          {{/each}}
+
         </div>
 
       </div>
@@ -39,12 +38,12 @@
   <form class="recipe-post-form" action="/post-recipe" method="post">
   <div class="form-group">
     <label for="dish-name" >Dish Name</label>
-    <input class="form-control" type="text" name="dish-name" placeholder="Magic Juice">
+    <input class="form-control" type="text" name="dishName" placeholder="Magic Juice">
 
   </div>
   <div class="form-group">
     <label for="ingedient" >Ingredients</label>
-    <textarea class="form-control" name="steps" rows="8"  placeholder="Please follow this pattern: item1:quantity1,item:quantity2"></textarea>
+    <textarea class="form-control" name="ingredients" rows="8"  placeholder="Please follow this pattern: item1:quantity1,item:quantity2"></textarea>
   </div>
   <div class="form-group">
     <label for="steps">Instructions</label>

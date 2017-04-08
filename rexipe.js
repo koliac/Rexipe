@@ -1,11 +1,13 @@
-//require('./db');
-
+require('./db');
 const express = require('express');
 const path = require('path');
 const bodyParser = require('body-parser');
 const unirest = require('unirest');
 const handlebars = require("handlebars");
 const hbs=require("hbs");
+const mongoose = require("mongoose");
+mongoose.Promise = require("bluebird");
+const Recipe = mongoose.model("Recipe");
 
 
 
@@ -78,6 +80,26 @@ app.get("/",(req,res)=>{
 app.get("/about",(req,res)=>{
   res.render("about",{layout:"general-layout.hbs"});
 });
+app.post("/post-recipe",(req,res)=>{
+  // this is not fully implemented. This is only used to comfirm the post form and mongoDB is working
+  const dishName = req.body.dishName;
+  const steps = req.body.steps;
+  const ingredients = req.body.ingredients;
+  console.log(dishName, steps, ingredients);
+  const newRecipe = new Recipe({
+    name:dishName,
+    steps: steps
+  });
+  newRecipe.save()
+  .then((updated)=>{
+    console.log(updated);
+  }).catch((err)=>{
+    console.log(err);
+
+  });
+  res.redirect("/admin");
+
+});
 app.get("/meat-lover",(req,res)=>{
   unirest.get("https://spoonacular-recipe-food-nutrition-v1.p.mashape.com/recipes/findByIngredients?fillIngredients=false&ingredients=beef&limitLicense=true&number=12&ranking=1")
 .header("X-Mashape-Key", "T7ZElprTGBmshLuMe9PRtph4DSInp1iO5UMjsnylLl2NZaszrE")
@@ -97,7 +119,17 @@ console.log(list);
 
 });
 app.get("/admin",(req,res)=>{
-  res.render("dashboard",{layout:"general-layout.hbs"});
+  Recipe.find({})
+  .then((recipes)=>{
+    console.log(recipes);
+    res.render("dashboard",{layout:"general-layout.hbs","list":recipes});
+
+  })
+  .catch((err)=>{
+    console.log(err);
+  });
+
+
 });
 
 app.listen(process.env.PORT|| 3000);
