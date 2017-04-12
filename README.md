@@ -1,9 +1,12 @@
-This is a final project for 480: Applied Internet Technology by Longkun Yang
 # Rexipe
 
 ## Overview
 
-This is a website for you to look up recipes, browse great food pictures or even find out which restaurants is selling the food you are craving for, with great ease.
+This website is still working in progress. It is created as my final projest for Prof. [Joe Versoza](http://cs.nyu.edu/~jversoza/)'s Applied Internet Technology course. Rexipe the website is designed for people to find a recipe they like with great convenience. The webiste pulls thousands of recipes from the internet and the [Spoonacular](https://spoonacular.com/)'s recipe repository. As a registered user, one can also contribute their own recipe for sharing. One unique feature of this website is to look up restaurants in your surrounding area that sells the dish you are interested in, in case you are feeling too lazy to cook.
+
+##Technology
+
+Express.js, Handlebars.js, Passport.js, Mongoose, Boostrap
 
 
 ## Data Model
